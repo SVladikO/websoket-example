@@ -65,6 +65,7 @@ function Dialog() {
             }
         };
 
+
         socket.onerror = function (error) {
             console.log(`[error]`);
         };
