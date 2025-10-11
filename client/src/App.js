@@ -1,15 +1,14 @@
 import './App.css';
 
-import Menu from "./components/Menu/Menu";
-import Dialog from "./menu-item-view/dialog/Dialog";
+import Dialog from "./components/dialog/Dialog";
+import {useState} from "react";
+
+
 
 function App() {
-
-
     return (
         <div className="App">
-            {/*<Menu/>*/}
-            <Dialog/>
+            <Dialog />
         </div>
     );
 }

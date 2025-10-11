@@ -9,12 +9,6 @@ export const MessageWrapper = styled.div`
     width: 300px;
 `;
 
-export const SingIn = styled.div`
-    display: flex;
-    flex-direction: column;
-
-`;
-
 export const Columns = styled.div`
     display: flex;
     flex-direction: row;

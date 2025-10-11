@@ -1,7 +1,6 @@
 import {Message, MessageWrapper, FirstRow, Username, DateWrapper, Wrapper} from "./Messages.style";
 
 function Messages({messages}) {
-    console.log({messages})
     return (
         <Wrapper>
             {
